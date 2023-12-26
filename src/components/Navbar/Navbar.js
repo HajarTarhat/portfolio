@@ -13,6 +13,7 @@ import CloseIcon from '@material-ui/icons/Close';
 import './Navbar.css';
 import { headerData } from '../../data/headerData';
 import { ThemeContext } from '../../contexts/ThemeContext';
+import { red } from '@material-ui/core/colors';
 
 function Navbar() {
     const { theme, setHandleDrawer } = useContext(ThemeContext);
@@ -54,7 +55,7 @@ function Navbar() {
             fontWeight: ' normal',
             fontSize: ' 24px',
             background: theme.secondary,
-            overflow: 'hidden',
+            // overflow: 'hidden',
             borderTopRightRadius: '40px',
             borderBottomRightRadius: '40px',
             [t.breakpoints.down('sm')]: {

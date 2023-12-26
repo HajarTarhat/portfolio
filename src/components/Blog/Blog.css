@@ -14,6 +14,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    
     margin: 1rem;
 }
 
@@ -22,6 +23,7 @@
     margin-bottom: 40px;
     font-size: 3.5rem;
     font-family: var(--primaryFont);
+    
 }
 
 .blog--body {
@@ -30,6 +32,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: blue;
+
 }
 
 .blog--bodyContainer {
@@ -38,6 +42,8 @@
     justify-content: center;
     width: 100%;
     gap: 4.5rem;
+    background-color: rgb(236, 48, 246);
+
 }
 
 .blog--viewAll {
@@ -47,6 +53,8 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    background-color: rgb(48, 246, 167);
+
 }
 
 .blog--viewAll a button {

@@ -1,4 +1,6 @@
 import one from '../assets/svg/projects/one.svg'
+// import one from '../assets/pdf/hajar.pdf'
+
 import two from '../assets/svg/projects/two.svg'
 import three from '../assets/svg/projects/three.svg'
 import four from '../assets/svg/projects/four.svg'
@@ -11,20 +13,20 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Gifty',
-        projectDesc: 'Discover Gifty Sotre, the prime destination for superior gifts. Navigate our curated selection with expert customer service. Elevate gifts with custom boxes and add a personal touch with uniquely designed gift cards. Project Sotre transforms the act of gifting into a thoughtful experience, where every detail matters.',
+        projectName: 'Gifty Store',
+        projectDesc: 'Discover Gifty Sotre, the prime destination for superior gifts. Navigate our curated selection with expert customer service. Elevate gifts with custom boxes and add a personal touch with uniquely designed gift cards.',
         tags: ['React', 'CSS', 'Chakra Ui' , 'Mongodb'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/ELKADI-MUSTAPHA/GIFTY-Store.git',
+        demo: 'https://github.com/ELKADI-MUSTAPHA/GIFTY-Store.git',
         image: one
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Back office :GIFTY',
+        projectDesc: 'Discover Gifty Sotre, the prime destination for superior gifts. Navigate our curated selection with expert customer service. Elevate gifts with custom boxes and add a personal touch with uniquely designed gift cards.',
+        tags: ['React', 'CSS', 'Chakra Ui' , 'Mongodb' ,'Express'],
+        code: 'https://github.com/HajarTarhat/GIFTY-Client.git',
+        demo: 'https://github.com/HajarTarhat/GIFTY-Client.git',
         image: two
     },
     {
